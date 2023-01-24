@@ -23,7 +23,6 @@ export const App = () => {
         stats={user.stats}
       />
       <Statistics title="Upload stats" stats={statistics} />
-      <Statistics stats={statistics} />
     </div>
   );
 };
