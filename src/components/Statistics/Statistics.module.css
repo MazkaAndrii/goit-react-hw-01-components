@@ -3,9 +3,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 40px;
+  padding: 20px 0px 0px;
 
   background-color: rgb(243, 236, 236);
+  border: 1px solid #000;
+  box-shadow: grey 0px 0px 10px;
 }
 
 .title {
@@ -31,13 +33,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 70px;
-  height: 70px;
-  background-color: rgb(209, 198, 198);
-}
-
-.item:not(:last-child) {
-  margin-right: 15px;
+  width: 60px;
+  height: 60px;
 }
 
 .label {
