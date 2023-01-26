@@ -2,12 +2,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: 20px 0px 0px;
-
-  background-color: rgb(243, 236, 236);
+  padding: 12px 0px 0px;
   border: 1px solid #000;
   box-shadow: grey 0px 0px 10px;
+  margin-bottom: 20px;
 }
 
 .title {
