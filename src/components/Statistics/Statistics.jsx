@@ -23,12 +23,12 @@ export default function Statistics({ title, stats }) {
 }
 
 function getRandomColor() {
-  let letters = '0123456789ABCDEF';
-  let color = '#';
-  for (let i = 0; i < 6; i++) {
-    color += letters[Math.floor(Math.random() * 16)];
-  }
-  return color;
+  let x = Math.floor(Math.random() * 256);
+  let y = Math.floor(Math.random() * 256);
+  let z = Math.floor(Math.random() * 256);
+  let bgColor = 'rgb(' + x + ',' + y + ',' + z + ')';
+
+  return bgColor;
 }
 
 Statistics.propTypes = {
