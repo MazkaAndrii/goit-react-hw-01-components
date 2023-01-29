@@ -1,5 +1,6 @@
 .transactionHistory {
-  border-collapse: collapse;
+  border: 2px solid gray;
+  border-collapse: separate;
 }
 
 .transactionHistory th {
@@ -20,6 +21,6 @@
   border-bottom: 1px solid #e8e9eb;
 }
 
-.transactionHistory tbody tr:hover {
+.transactionHistory tbody tr {
   background: #e8f6ff;
 }
